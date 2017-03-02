@@ -72,7 +72,9 @@ If you prefer installing it with dummy run
 php artisan voyager:install --with-dummy
 ```
 
-And we're all good to go! 
+And we're all good to go!
+
+However if your site have problems loading the avatar and other storage files, please ensure that you have set the `APP_URL` environment (including port).
 
 Start up a local development server with `php artisan serve` And, visit [http://localhost:8000/admin](http://localhost:8000/admin).
 
